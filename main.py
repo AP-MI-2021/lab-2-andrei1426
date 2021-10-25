@@ -87,8 +87,8 @@ def main():
             n = int(input("Ce numar doriti sa testati?"))
             print(is_palindrome(n))
         elif optiune == "2":
-            n = input("Dati n=")
-            k = input("Dati k=")
+            n = int(input("Dati n="))
+            k = int(input("Dati k="))
             print(get_n_choose_k(n, k))
         elif optiune == "3":
             start=input("extremitate initiale=")
